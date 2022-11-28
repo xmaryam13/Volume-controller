@@ -1,4 +1,5 @@
-
+const byte buzzer_gpio = 18; 
+define POTENTIOMETER_PIN 15
 
 void setup() { 
   Serial.begin(9600); 
